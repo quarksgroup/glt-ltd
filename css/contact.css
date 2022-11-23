@@ -230,9 +230,29 @@ font-size: 1.5rem;
 
 /* header end */
 
-body {
+/* body {
     background: linear-gradient(90deg,#0c6daa 0%, #0c6daa 30%, #50bbd5  30%, #50bbd5 100%);
+} */
+
+.main{
+	background: url("../images/bg3.jpg") no-repeat;
+	background-size: cover;
+	padding: 50px 0px;
+	min-height: 500px;
+	position: relative;
 }
+.main:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgb(5 38 111 / 91%);
+}
+
 #logo img{
     width: 100px;
     display: flex;
