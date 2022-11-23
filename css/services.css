@@ -100,8 +100,7 @@ p {
     height: 50px;
     line-height: 50px;
     text-align: center;
-    background: var(--secondary-color);
-    color: white;
+    color: var(--secondary-color);
     border-radius: 100px;
     margin-right: 10px;
     font-size: 2rem;
