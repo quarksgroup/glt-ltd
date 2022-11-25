@@ -8,7 +8,7 @@
     --otherclr:#37c3a8;
     --clr:#43b1d2;
     --primary-color:#0c6daa;
-    --secondary-color:#50bbd5;
+    --secondary-color:#51bbd4;
     --third-color:#3886ba;
     --fourth-color:#9cc2dc;
 }
@@ -92,6 +92,7 @@ p {
 .menu-icons{
     display: flex;
     align-items: center;
+    padding: 0 13rem;
 }
 .inner-menu-icons{
     display: flex;
@@ -168,7 +169,7 @@ font-size: 1.5rem;
     display: none;
 }
 .nav-link.active {
-    color: var(--primary-color) !important;
+    color: var(--secondary-color) !important;
     font-weight: bolder !important;
 }
 
@@ -225,6 +226,7 @@ font-size: 1.5rem;
         .menu-icons {
             display: flex;
             flex-direction: column;
+            padding: 0 1rem;
         }
 }
 
@@ -234,24 +236,13 @@ font-size: 1.5rem;
     background: linear-gradient(90deg,#0c6daa 0%, #0c6daa 30%, #50bbd5  30%, #50bbd5 100%);
 } */
 
-.main{
-	background: url("../images/bg3.jpg") no-repeat;
-	background-size: cover;
-	padding: 50px 0px;
-	min-height: 500px;
-	position: relative;
+.main {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 107, 121, 0.9)), to(rgba(1, 128, 145, 0.85))), url('../images/servicebgbg3.jpeg') top/cover no-repeat;
+    background: -o-linear-gradient(rgba(0, 131, 148, 0.9), rgba(1, 141, 160, 0.85)), url('../images/servicebgbg3.jpeg') top/cover no-repeat;
+    background: linear-gradient(rgba(0, 150, 155, 0.9), rgba(1, 129, 146, 0.85)), url('../images/servicebgbg3.jpeg') top/cover no-repeat;
+    height: fit-content !important;
 }
-.main:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: rgb(5 38 111 / 91%);
-}
+
 
 #logo img{
     width: 100px;
@@ -333,7 +324,7 @@ font-size: 1.5rem;
     padding: 10px;
     font-size: 1.1em;
     outline: none;
-    border: 1px solid #333;
+    border: 1px solid rgb(72, 117, 115);
     resize: none;
     margin-bottom: 10px;
     min-height: 120px;
@@ -352,7 +343,7 @@ font-size: 1.5rem;
 }
 
 .info {
-    background: #0c6daa;
+    background: var(--secondary-color);
     color: #fff;
 }
 .info h2 {
@@ -384,7 +375,7 @@ font-size: 1.5rem;
     font-size: 1.5em;
 }
 .sci {
-    margin-top: 40px;
+    margin-top: 10px;
     display: flex;
     font-size: 20px;
 }
@@ -395,7 +386,8 @@ font-size: 1.5rem;
 .sci li a {
     color: #fff;
     text-decoration: none;
-    color: #ccc;
+    font-size: 16px;
+    /* color: #ccc; */
 }
 .sci li a:hover {
     color: #fff;
@@ -450,16 +442,21 @@ font-size: 1.5rem;
 
 /* footer */
 .footer {
-    padding: 50px 5rem;
+    padding: 0px 3rem;
     background: #fff;
 }
 .footer h1 {
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .footer a {
     text-decoration: none;
     font-size: 20px;
     margin-bottom: 10px;
+    color: var(--secondary-color) !important;
+}
+.footer a:hover {
+    color: var(--primary-color) !important;
 }
 .links {
     margin-bottom: 50px;

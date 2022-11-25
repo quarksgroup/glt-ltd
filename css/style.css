@@ -5,8 +5,8 @@
     --btnclr:#00aeef;
     --otherclr:#37c3a8;
     --clr:#43b1d2;
-    --primary-color:#0c6daa;
-    --secondary-color:#50bbd5;
+    --primary-color:#096aaa;
+    --secondary-color:#51bbd4;
     --third-color:#3886ba;
     --fourth-color:#9cc2dc;
 }
@@ -86,12 +86,13 @@ p {
 .menu-icons{
     display: flex;
     align-items: center;
+    justify-content: space-around !important;
 }
 .inner-menu-icons{
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 0 1rem;
+    justify-content: space-between;
+    padding: 0 4rem;
 }
 .inner-menu-content{
     display: flex;
@@ -162,7 +163,7 @@ font-size: 1.5rem;
     display: none;
 }
 .nav-link.active {
-    color: var(--primary-color) !important;
+    color: var(--secondary-color) !important;
     font-weight: bolder !important;
 }
 
@@ -219,6 +220,7 @@ font-size: 1.5rem;
         .menu-icons {
             display: flex;
             flex-direction: column;
+            padding: 0 1rem;
         }
 }
 
@@ -230,7 +232,7 @@ font-size: 1.5rem;
 .hero-banner{
 	background: url("../images/bg3.jpg") no-repeat;
 	background-size: cover;
-	padding: 100px 0px;
+	padding: 20px 0px;
 	min-height: 500px;
 	position: relative;
 }
@@ -243,7 +245,8 @@ font-size: 1.5rem;
     right: 0;
     top: 0;
     bottom: 0;
-    background: rgb(5 38 111 / 91%);
+    /* background: rgb(5 38 111 / 40%); */
+    background: rgba(5, 95, 111, 0.51);
 }
 .banner-text-wrap h1{
 	font-size:60px;
@@ -259,7 +262,7 @@ a.btn {
 
 a.btn-white {
     background: #FFF;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 .banner-text-wrap {
     max-width: 600px;
@@ -273,18 +276,18 @@ a.btn-white {
 
 /*Features Section*/
 section.features-section {
-    margin-top: -90px;
+    margin-top: -80px;
 }
 .bg1 {
-    background: #10285f;
+    background: var(--secondary-color);
 }
 
 .bg2 {
-    background: #0c2f7d;
+    background: var(--primary-color);
 }
 
 .bg3 {
-    background: #1148c3;
+    background: var(--secondary-color);
 }
 
 .features-box h1, .features-box p {
@@ -339,10 +342,10 @@ section.features-section {
 /* banner two section */
 
 .banner-two{
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 46, 121, 0.9)), to(rgba(1, 59, 141, 0.85))), url('../images/bg1.PNG') top/cover no-repeat;
-    background: -o-linear-gradient(rgba(0, 57, 148, 0.9), rgba(1, 67, 160, 0.85)), url('../images/bg1.PNG') top/cover no-repeat;
-    background: linear-gradient(rgba(0, 59, 155, 0.9), rgba(1, 61, 146, 0.85)), url('../images/bg1.PNG') top/cover no-repeat;
-    padding: 13.6rem 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 107, 121, 0.9)), to(rgba(1, 128, 145, 0.85))), url('../images/banner-bg.jpg') top/cover no-repeat;
+    background: -o-linear-gradient(rgba(0, 131, 148, 0.9), rgba(1, 141, 160, 0.85)), url('../images/banner-bg.jpg') top/cover no-repeat;
+    background: linear-gradient(rgba(0, 150, 155, 0.9), rgba(1, 129, 146, 0.85)), url('../images/banner-bg.jpg') top/cover no-repeat;
+    padding: 1.6rem 0;
 }
 /* .banner-two .grid {
     display: grid !important;
@@ -364,16 +367,24 @@ section.features-section {
 /* end */
 
 /* footer */
+
+/* footer */
 .footer {
-    padding: 50px 5rem;
+    padding: 0px 3rem;
+    background: #fff;
 }
 .footer h1 {
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .footer a {
     text-decoration: none;
     font-size: 20px;
     margin-bottom: 10px;
+    color: var(--secondary-color) !important;
+}
+.footer a:hover {
+    color: var(--primary-color) !important;
 }
 .links {
     margin-bottom: 50px;
