@@ -379,7 +379,7 @@ section.features-section {
 }
 .footer a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 10px;
     color: var(--secondary-color) !important;
 }
