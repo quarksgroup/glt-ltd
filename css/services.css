@@ -348,7 +348,30 @@ section .roll {
     height: 100px;
     width: 250px;
 }
+.card-title {
+    height:40px;
+}
+.card-text {
+    padding: 10px 0;
+}
+@media screen and (max-width:678px) {
+    .card-text {
+        padding: 5px 0;
+    }
+}
+hr {
+    height: 20px !important;
+    background: var(--secondary-color);
+}
 
+.btn-primary {
+    position: absolute;
+    bottom: 20px;
+    right: 35%;
+    font-size: 16px !important;
+    background: var(--secondary-color) !important;
+    border: none !important;
+}
 
 /* footer */
 
