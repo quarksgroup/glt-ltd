@@ -72,6 +72,9 @@ p {
 .bglight {
     background: #fff;
 }
+body {
+    background:  none !important;
+}
 .main-header{
     padding: 0rem 5%;
     background: #fff;
@@ -88,6 +91,9 @@ p {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
+}
+.navbar-light {
+    background: white !important;
 }
 .menu-icons{
     display: flex;
