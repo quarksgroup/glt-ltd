@@ -321,16 +321,21 @@ font-size: 1.5rem;
     font-size: 16px;
 }
 .inputBox input {
-    padding: 10px;
+    padding: 15px 10px;
     font-size: 1.1em;
     outline: none;
-    border: 1px solid #333;
+    border: none;
+    background: #eee;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 .inputBox textarea {
     padding: 10px;
     font-size: 1.1em;
     outline: none;
-    border: 1px solid rgb(72, 117, 115);
+    border: none;
+    background: #eee;
+    border-radius: 5px;
     resize: none;
     margin-bottom: 10px;
     min-height: 120px;
@@ -340,14 +345,25 @@ font-size: 1.5rem;
     color: #fff;
     border: none;
     font-size: 2em;
+    padding: 10px;
     max-width: 120px;
     font-weight: 500;
     cursor:  pointer;
 }
 .inputBox ::placeholder {
     color: #999;
+    font-size: 16px;
 }
-
+.inputBox {
+    position: relative;
+}
+.inputBox  .form-icon {
+    position: absolute;
+    right: 10px;
+    top:10px;
+    font-size: 18px;
+    color: #999;
+}
 .info {
     background: var(--secondary-color);
     color: #fff;
