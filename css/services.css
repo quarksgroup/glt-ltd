@@ -436,3 +436,7 @@ hr {
     }
 }
 
+.close {
+    background: var(--secondary-color) !important;
+    color: #FFF !important;
+}
