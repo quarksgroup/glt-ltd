@@ -291,7 +291,7 @@ section.about-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 @media screen and (max-width:678px) {
     .about-media {
