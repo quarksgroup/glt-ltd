@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GLT</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/normalise.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
     <!-- <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css"> -->
     <link
       rel="stylesheet"
@@ -118,8 +118,50 @@
       </div>
     </div> -->
 
+  <!-- slider -->
+
+  <section class="home">
+    <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-controls">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active" style="background-image:url('images/bg3.jpg');cursor: pointer;"></li>
+        <li data-target="#carousel" data-slide-to="1" style="background-image:url('images/servicebgbg3.jpeg');cursor: pointer;"></li>
+        <li data-target="#carousel" data-slide-to="2" style="background-image:url('images/banner-bg.jpg');cursor: pointer;"></li>
+        
+      </ol>
+      <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+       <img src="images/left-arrow.svg" alt="Prev"> 
+    </a>
+    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+      <img src="images/right-arrow.svg" alt="Next">
+    </a>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item one active" >
+        <div class="container">
+           <h2>We're GLT</h2>
+           <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+      <div class="carousel-item two" >
+        <div class="container">
+           <h2>AirTicketing</h2>
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, magnam!</p>
+        </div>
+      </div>
+      <div class="carousel-item three">
+        <div class="container">
+           <h2>Healthcare</h2>
+           <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+   </section>
+  <!-- slider -->
+
     <!--Start Hero Banner	-->
-    <section class="hero-banner" id="home-section">
+    <!-- <section class="hero-banner" id="home-section">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -138,7 +180,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!--End Hero Banner	-->
 
     <!--Start Features Section	-->
@@ -340,6 +382,7 @@
 
     <!-- script -->
     <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
     <!-- bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
