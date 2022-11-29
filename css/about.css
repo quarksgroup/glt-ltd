@@ -288,6 +288,15 @@ section.about-section {
 } */
 .about-media {
     border: 10px solid var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+@media screen and (max-width:678px) {
+    .about-media {
+        margin-top: 0;
+    }
 }
 
 /* about */
@@ -297,6 +306,38 @@ section.about-section {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 107, 121, 0.9)), to(rgba(1, 128, 145, 0.85))), url('../images/service.jpg') top/cover no-repeat;
     background: -o-linear-gradient(rgba(0, 131, 148, 0.9), rgba(1, 141, 160, 0.85)), url('../images/service.jpg') top/cover no-repeat;
     background: linear-gradient(rgba(0, 150, 155, 0.9), rgba(1, 129, 146, 0.85)), url('../images/service.jpg') top/cover no-repeat;
+    height: fit-content;
+    padding: 50px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.banner-one{
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 107, 121, 0.9)), to(rgba(1, 128, 145, 0.85))), url('../images/service.jpg') top/cover no-repeat;
+    background: -o-linear-gradient(rgba(0, 131, 148, 0.9), rgba(1, 141, 160, 0.85)), url('../images/service.jpg') top/cover no-repeat;
+    background: linear-gradient(rgba(0, 150, 155, 0.9), rgba(1, 129, 146, 0.85)), url('../images/service.jpg') top/cover no-repeat;
+    height: fit-content;
+    padding: 50px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.banner-about{
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 107, 121, 0.9)), to(rgba(1, 128, 145, 0.85))), url('../images/banner-bg.jpg') top/cover no-repeat;
+    background: -o-linear-gradient(rgba(0, 131, 148, 0.9), rgba(1, 141, 160, 0.85)), url('../images/banner-bg.jpg') top/cover no-repeat;
+    background: linear-gradient(rgba(0, 150, 155, 0.9), rgba(1, 129, 146, 0.85)), url('../images/banner-bg.jpg') top/cover no-repeat;
     height: fit-content;
     padding: 50px 0;
     display: -webkit-box;
@@ -323,7 +364,9 @@ section.about-section {
 .banner-one .text-sm{
     font-weight: 500;
 }
-
+.about-info {
+    color: #FFF;
+}
 @keyframes scroll {
     0% {
         transform: translateX(0);

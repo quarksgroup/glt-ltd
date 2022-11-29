@@ -359,7 +359,7 @@ section.features-section {
     margin-top: 6rem;
 }
 .banner-two-right .btn-group{
-    margin-top: 6rem;
+    /* margin-top: 6rem; */
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
