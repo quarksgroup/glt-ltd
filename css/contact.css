@@ -243,9 +243,9 @@ font-size: 1.5rem;
 } */
 
 .main {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 107, 121, 0.1)), to(rgba(1, 128, 145, 0.1))), url('../images/servicebgbg3.jpeg') top/cover no-repeat;
-    background: -o-linear-gradient(rgba(0, 131, 148, 0.1), rgba(1, 141, 160, 0.1)), url('../images/servicebgbg3.jpeg') top/cover no-repeat;
-    background: linear-gradient(rgba(0, 150, 155, 0.1), rgba(1, 129, 146, 0.1)), url('../images/servicebgbg3.jpeg') top/cover no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 107, 121, 0.9)), to(rgba(1, 128, 145, 0.85))), url('../images/servicebgbg3.jpeg') top/cover no-repeat;
+    background: -o-linear-gradient(rgba(0, 131, 148, 0.9), rgba(1, 141, 160, 0.85)), url('../images/servicebgbg3.jpeg') top/cover no-repeat;
+    background: linear-gradient(rgba(0, 150, 155, 0.9), rgba(1, 129, 146, 0.85)), url('../images/servicebgbg3.jpeg') top/cover no-repeat;
     height: fit-content !important;
 }
 
